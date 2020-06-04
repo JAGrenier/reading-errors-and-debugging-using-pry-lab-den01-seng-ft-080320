@@ -11,7 +11,7 @@ end
 
 def engage
   puts state_log(date)
-  date =   (rand(100000) + 400000) / 10.0
+  date == (rand(100000) + 400000) / 10.0
 
 end
 
